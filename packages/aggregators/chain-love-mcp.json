@@ -1,0 +1,17 @@
+{
+  "type": "mcp-server",
+  "name": "Chain.Love MCP",
+  "packageName": "@toolsdk-remote/chain-love-mcp",
+  "description": "Hosted MCP gateway for discovering and comparing Web3 infrastructure services across 50+ blockchain networks, including RPC, indexing, oracles, storage, compute, and developer tools.",
+  "readme": "https://github.com/Chain-Love/chain.love-mcp#readme",
+  "url": "https://github.com/Chain-Love/chain.love-mcp",
+  "runtime": "node",
+  "author": "Chain.Love",
+  "env": {},
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://app.chain.love/mcp"
+    }
+  ]
+}
